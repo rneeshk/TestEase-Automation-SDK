@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="1" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-02-18T20:43:30 IST" name="Default suite" finished-at="2026-02-18T20:44:11 IST" duration-ms="40776">
+    <groups>
+    </groups>
+    <test started-at="2026-02-18T20:43:30 IST" name="Default test" finished-at="2026-02-18T20:44:11 IST" duration-ms="40776">
+      <class name="com.testease.tests.DemoValidationTest">
+        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:com.testease.tests.DemoValidationTest@2cd76f31]" started-at="2026-02-18T20:43:30 IST" name="setup" finished-at="2026-02-18T20:43:37 IST" duration-ms="6317" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.testease.tests.DemoValidationTest.googleSearch_shouldPass()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="googleSearch_shouldPass()[pri:0, instance:com.testease.tests.DemoValidationTest@2cd76f31]" started-at="2026-02-18T20:43:37 IST" name="googleSearch_shouldPass" finished-at="2026-02-18T20:43:37 IST" duration-ms="764" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- googleSearch_shouldPass -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.testease.tests.DemoValidationTest@2cd76f31]" started-at="2026-02-18T20:43:37 IST" name="tearDown" finished-at="2026-02-18T20:43:38 IST" duration-ms="227" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=googleSearch_shouldPass status=SUCCESS method=DemoValidationTest.googleSearch_shouldPass()[pri:0, instance:com.testease.tests.DemoValidationTest@2cd76f31] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:com.testease.tests.DemoValidationTest@2cd76f31]" started-at="2026-02-18T20:43:38 IST" name="setup" finished-at="2026-02-18T20:43:40 IST" duration-ms="1961" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.testease.tests.DemoValidationTest.invalidLocator_shouldTriggerRetryAndScreenshot()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="invalidLocator_shouldTriggerRetryAndScreenshot()[pri:0, instance:com.testease.tests.DemoValidationTest@2cd76f31]" started-at="2026-02-18T20:43:40 IST" name="invalidLocator_shouldTriggerRetryAndScreenshot" finished-at="2026-02-18T20:44:11 IST" duration-ms="31067" status="FAIL">
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for element found by By.id: THIS_ELEMENT_DOES_NOT_EXIST to be clickable, but the element was not found: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#THIS_ELEMENT_DOES_NOT_EXIST"}.
+(tried for 10 seconds with 500 milliseconds interval)
+Build info: version: '4.40.0', revision: 'b3333f1'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 144.0.7559.133, chrome: {chromedriverVersion: 144.0.7559.133 (7da823b1d59..., userDataDir: C:\Users\rajne\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56571}, goog:processID: 20836, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56571/devtoo..., se:cdpVersion: 144.0.7559.133, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 76c279b6528bd4207c8afd0a656fdb35]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element found by By.id: THIS_ELEMENT_DOES_NOT_EXIST to be clickable, but the element was not found: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#THIS_ELEMENT_DOES_NOT_EXIST"}.
+(tried for 10 seconds with 500 milliseconds interval)
+Build info: version: '4.40.0', revision: 'b3333f1'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 144.0.7559.133, chrome: {chromedriverVersion: 144.0.7559.133 (7da823b1d59..., userDataDir: C:\Users\rajne\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56571}, goog:processID: 20836, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56571/devtoo..., se:cdpVersion: 144.0.7559.133, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 76c279b6528bd4207c8afd0a656fdb35
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)
+at com.testease.actions.click.ClickActions.click(ClickActions.java:16)
+at com.testease.core.TestEase.lambda$0(TestEase.java:24)
+at com.testease.retry.RetryEngine.execute(RetryEngine.java:15)
+at com.testease.engine.ActionExecutor.execute(ActionExecutor.java:22)
+at com.testease.core.TestEase.click(TestEase.java:23)
+at com.testease.tests.DemoValidationTest.invalidLocator_shouldTriggerRetryAndScreenshot(DemoValidationTest.java:26)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidLocator_shouldTriggerRetryAndScreenshot -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.testease.tests.DemoValidationTest@2cd76f31]" started-at="2026-02-18T20:44:11 IST" name="tearDown" finished-at="2026-02-18T20:44:11 IST" duration-ms="363" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=invalidLocator_shouldTriggerRetryAndScreenshot status=FAILURE method=DemoValidationTest.invalidLocator_shouldTriggerRetryAndScreenshot()[pri:0, instance:com.testease.tests.DemoValidationTest@2cd76f31] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="generateLocatorReport()[pri:0, instance:com.testease.tests.DemoValidationTest@2cd76f31]" started-at="2026-02-18T20:44:11 IST" name="generateLocatorReport" finished-at="2026-02-18T20:44:11 IST" duration-ms="384" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- generateLocatorReport -->
+      </class> <!-- com.testease.tests.DemoValidationTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
