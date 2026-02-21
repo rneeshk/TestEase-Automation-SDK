@@ -1,7 +1,5 @@
 # TestEase – Smart Selenium Interaction SDK
-# TestEase – Smart Selenium Interaction SDK
 
-## What is TestEase?
 ## What is TestEase?
 
 TestEase is a reusable Selenium-based automation SDK designed to make UI automation faster, cleaner, and more stable.
@@ -12,7 +10,6 @@ This project was built with a product mindset — not just as a framework, but a
 
 ---
 
-## Why This Project Exists
 ## Why This Project Exists
 
 In real automation projects, testers face common problems:
@@ -36,7 +33,6 @@ TestEase solves these problems by providing:
 
 ---
 
-## Core Idea
 ## Core Idea
 
 Instead of writing this:
@@ -63,7 +59,6 @@ And TestEase automatically handles:
 ---
 
 ## Architecture Overview
-## Architecture Overview
 
 The project is designed using layered architecture:
 
@@ -88,7 +83,6 @@ This makes the framework:
 
 ---
 
-## Key Features
 ## Key Features
 
 ### 1. Thread-Safe Driver Management
@@ -126,7 +120,6 @@ Every action goes through a smart pipeline:
 ---
 
 ### 4. Retry Mechanism (Anti-Flaky System)
-### 4. Retry Mechanism (Anti-Flaky System)
 
 If an action fails:
 
@@ -136,7 +129,6 @@ If an action fails:
 ---
 
 ### 5. Element Highlighting
-### 5. Element Highlighting
 
 Before any click/type action:
 
@@ -145,7 +137,6 @@ Before any click/type action:
 
 ---
 
-### 6. Automatic Screenshot Capture
 ### 6. Automatic Screenshot Capture
 
 Screenshots are captured when:
@@ -180,7 +171,6 @@ Helps identify:
 ---
 
 ### 8. Performance Tracking
-### 8. Performance Tracking
 
 Every action logs execution time:
 
@@ -192,7 +182,6 @@ Useful for performance analysis.
 
 ---
 
-### 9. Modular Action Design
 ### 9. Modular Action Design
 
 Actions are split into focused modules:
@@ -213,7 +202,6 @@ Each module handles one responsibility.
 
 ---
 
-### 10. Facade Layer (Easy to Use)
 ### 10. Facade Layer (Easy to Use)
 
 All actions are accessed through one class:
@@ -236,7 +224,6 @@ This keeps test code clean and readable.
 ---
 
 ## Supported UI Interactions
-## Supported UI Interactions
 
 TestEase supports almost all daily UI automation needs:
 
@@ -257,7 +244,6 @@ TestEase supports almost all daily UI automation needs:
 ---
 
 ## Reporting
-## Reporting
 
 Integrated with Extent Reports:
 
@@ -272,7 +258,6 @@ Report location:
 
 ---
 
-## Project Structure
 ## Project Structure
 
 ```
@@ -392,7 +377,6 @@ These are real problems faced in production automation projects.
 ---
 
 ## Skills Demonstrated
-## Skills Demonstrated
 
 This project showcases:
 
@@ -406,7 +390,6 @@ This project showcases:
 
 ---
 
-## Future Enhancements (Optional)
 ## Future Enhancements (Optional)
 
 Possible next improvements:
@@ -754,6 +737,7 @@ Co-Creator & Software Quality Engineer @KLA
   <a href="mailto:garimasingh25177@email.com">
     <img src="https://skillicons.dev/icons?i=gmail" />
   </a>
+  
 </p>
 
 ---
